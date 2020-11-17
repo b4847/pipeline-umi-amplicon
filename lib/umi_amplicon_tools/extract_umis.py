@@ -306,15 +306,15 @@ def main(argv=sys.argv[1:]):
     input_files = args.INPUT_FA
 
     pattern_fwd = (
-        "TTTVVVVTTVVVVTTVVVVTTVVVVTTT",
+        "CGAGATVVVVVVVVVAACCGC",
         "V",
-        [("V", "A"), ("V", "G"), ("V", "C")],
+        [("V", "A"), ("V", "G"), ("V", "C"), ("V", "T")],
         True,
     )
     pattern_rev = (
-        "AAABBBBAABBBBAABBBBAABBBBAAA",
+        "GCGGTTBBBBBBBBBATCTCG",
         "B",
-        [("B", "T"), ("B", "G"), ("B", "C")],
+        [("B", "T"), ("B", "G"), ("B", "C"), ("B", "A")],
         False,
     )
 
